@@ -10,8 +10,11 @@ std::string trim(const std::string& s) {
     return s.substr(start, end - start + 1);      // ambil substring yang bersih
 }
 
+
 int main(){
 
+int angka = 10;
+std::cout << angka << std::endl;
 // angka random pseudo
 // s sebagai seed atau mengubah nilai random supaya tidak selalu sama ketika di run
 // rand untuk menampilkan angka  random, jika tidak di seed maka hasil nya akan selalu sama
